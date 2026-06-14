@@ -17,7 +17,7 @@ dependencies {
     implementation("io.ktor:ktor-server-netty-jvm:$ktor_version")
     implementation("io.ktor:ktor-serialization-kotlinx-json-jvm:$ktor_version")
 
-    // Usamos a 3.0.5 para o import "mu.KotlinLogging" funcionar
+    
     implementation("io.github.microutils:kotlin-logging-jvm:3.0.5")
 
     implementation("io.ktor:ktor-server-content-negotiation:${ktor_version}")
